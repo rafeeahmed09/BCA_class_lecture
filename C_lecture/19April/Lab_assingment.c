@@ -63,3 +63,38 @@ int main()
 
     return 0;
 }
+
+// Wap to concatenate your string
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char Name_1[] = "Krish Singhaniya ";
+    char Name_2[] = "Junaid Alam";
+    char str[40];
+    strcat(str,Name_1);
+    strcat(str,Name_2);
+    puts(str);
+    return 0;
+}
+
+// WAP to check string is palindrome or not
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char str[] = "level";
+    if (str == strrev(str))
+    {
+
+        puts("String is palindrome");
+    }
+    else
+    {
+        puts("String is not palindrome");
+    }
+
+    return 0;
+}
+
