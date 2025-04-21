@@ -160,7 +160,31 @@ b – Back a page
 
 q – Quit]
 $ man :mannual for any command eg- man ls
-$ patch  eg- $ patchfile1.txt diff.txt
 
+$ patch  - The patch command applies changes (diffs) to files, usually used for updating source code or text files.
+	When someone sends you a .patch or .diff file containing differences (created using diff), you can apply it using patch.
+	🔹 Step-by-Step Example:
+1️⃣ Create two versions of a file:
+# Original file
+echo -e "Hello\nWorld" > original.txt
+
+# Modified version
+echo -e "Hi\nWorld" > modified.txt
+
+2️⃣ Create a patch file using diff:
+diff -u original.txt modified.txt > change.patch
+
+📄 change.patch now contains:
+--- original.txt
++++ modified.txt
+@@ -1,2 +1,2 @@
+-Hello
++Hi
+ World
+
+3️⃣ Apply the patch using patch:
+patch original.txt < change.patch
+
+✅ Now original.txt is modified to match modified.txt.
 
 											   
