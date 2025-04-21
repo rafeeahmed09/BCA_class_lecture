@@ -80,7 +80,7 @@ _15. cmp_ - compare 2 file on the bases of lines
 _16. diff_ - show different between 2 file on lines & words
     => diff file1.txt file2.txt 
 
-_17. patch_ - updates first file with the difference of second file
+_17. patch_ - updates first file with the difference of second file. 
 
     => patch file1.txt diff.txt - updates file1.txt with differences of diff.txt
 
