@@ -108,6 +108,8 @@ $ diff Eg. $diff file1.txt file2.txt
 👉 Use diff when you want to see exactly what’s different, especially for text/code files.
 
 
+Date: 21-04-2025
+
 $ ls -to show the list of  files/folder
   ls -l
   ls -a
