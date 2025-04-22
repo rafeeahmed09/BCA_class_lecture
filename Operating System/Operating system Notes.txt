@@ -189,4 +189,12 @@ patch original.txt < change.patch
 
 ✅ Now original.txt is modified to match modified.txt.
 
+
+22-04-2025
+
+$ print |
+$ echo  | To display messages 
+$ wall  |
+
+
 											   
