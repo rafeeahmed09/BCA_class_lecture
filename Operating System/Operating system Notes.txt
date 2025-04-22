@@ -196,5 +196,45 @@ $ print |
 $ echo  | To display messages 
 $ wall  |
 
+$ps 
+	this will provide the pid(process identification )
+	then use:
+	$ kill -9 <pid> eg: $ kill -9 1001 
+
+To identify the users:
+$ who
+$ whoami
+$ w
+
+$ ipconfig /$ ifconfig
+$ du (disk utilization)
+$ df (disk)
+
+$ grep (for pattern search,vv imp)
+	$ grep -i "TEXT" filename.txt (Ignore case)
+	$ grep -n "TEXT" filename.txt
+	
+	Q : To display all the lines start with "Hello".
+	$ grep "^Hello" file1.txt
+	Q : To display all the lines ending with "Hello".
+	$ grep "Hello$" file1.txt
+	$ grep -i "Hello$" file1.txt (ignore cases)
+
+	[Q] Match all the line having letter a,b,c,d and e.
+	$ grep "[a-e]" file1.txt
+	$ grep "[a-z]" file1.txt
+	[Q] Matchthe lines having vowels [a,e,i,o,u]
+	$ grep "[aeiou]" file1.txt
+	[Q]Doesn't have any vowels
+	$ grep "[^aeiou]" file1.txt
+
+Q Match all the lines that start with a digit.
+	$ grep "*[0-9]" file1.txt
+
+	***
+	$grep -i "China" country.txt>>output.txt (>> means redirection)
+
+$ sed 
+$ awk .
 
 											   
