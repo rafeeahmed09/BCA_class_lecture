@@ -235,6 +235,6 @@ Q Match all the lines that start with a digit.
 	$grep -i "China" country.txt>>output.txt (>> means redirection)
 
 $ sed 
-$ awk 
+$ awk .
 
 											   
