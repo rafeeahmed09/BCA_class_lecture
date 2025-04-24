@@ -229,12 +229,15 @@ $ grep (for pattern search,vv imp)
 	$ grep "[^aeiou]" file1.txt
 
 Q Match all the lines that start with a digit.
-	$ grep "[*0-9]" file1.txt
+	$ grep "*[0-9]" file1.txt
 
 	***
 	$grep -i "China" country.txt>>output.txt (>> means redirection)
 
 $ sed 
 $ awk .
+
+To display more than 1 file at the same time:
+$cat file1.txt file2.txt 
 
 											   
