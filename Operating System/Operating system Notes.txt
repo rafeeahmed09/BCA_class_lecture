@@ -237,4 +237,63 @@ Q Match all the lines that start with a digit.
 $ sed 
 $ awk .
 
+To display more than 1 file at the same time:
+$cat file1.txt file2.txt 
+
+
+Shell Scripting
+
+It is designed to execute Unix/Linux Programs
+Types of Shell :
+1)Bourne Shell
+2) C Shell
+3) Korn SHELL
+
+Vi Editor :King of Al editors
+
+Syntax:
+Vi sample.sh
+--press i to insert
+Echo “Input Your Name”
+read name
+echo “hello,Rawaque”
+
+Step 4: Esc:wq save and exit
+
+To see the program :
+Cat sample.sh
+
+To execute:
+bash filename.sh
+
+Q) Input your name and display it.
+Q) Input your name, enrolment number ,program code and display it.
+
+*** 
+Echo “Hello,$name” ---to store and disply the name in the variable name
+
+Eg: vi test1.sh
+echo ”My current working directory is $pwd”
+Esc:wq
+To show: cat test1.sh
+
+
+Date :24-04-2025
+
+Q) Write a shell scripting program to find a particular word within a file.
+Q) Write a shell program to display all the file having a word “India” ?
+grep -rli “TEXT” .
+Q) To find the total number of words in a file.[wc -w filename: Total no of words]
+Q) To display all .txt file
+$ls *.txt
+Q) Write a shell script to add two numbers
+vi sum.sh
+echo “Enter the first number”
+read num1
+echo “Enter the second number”
+read num2
+sum=$(expr  $num1 + $num2)
+echo “sum of the number = $sum”
+
+
 											   
