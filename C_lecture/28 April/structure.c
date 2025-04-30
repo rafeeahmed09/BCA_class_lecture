@@ -36,7 +36,7 @@ int main()
 
     emp[2].id = 43;
     emp[2].age = 34;
-    ! taking user input for array of structure
+    // ! taking user input for array of structure
     for (int i = 0; i < 2; i++)
     {
         printf("Enter emp %d Id: ", i+1, emp[i].id);
