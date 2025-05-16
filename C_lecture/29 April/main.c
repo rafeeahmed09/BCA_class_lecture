@@ -1,12 +1,11 @@
 // TODO Define two string using pointer and concatenate without string function
 #include <stdio.h>
 
-int main(){
-    
+int main()
+{
 
     return 0;
 }
-
 
 // TODO Store 5 record of employee id, age and show record using structure pointer
 // #include <stdio.h>
