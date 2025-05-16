@@ -31,7 +31,7 @@ int main()
     // printf("%d", u1.c);
 
     enum days wd = mon;
-    printf("%d",wd);
+    printf("%d", wd);
 
     return 0;
 }

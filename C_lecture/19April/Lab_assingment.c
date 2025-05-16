@@ -1,6 +1,6 @@
 // WAP to find length of string using string len function and without string function
 
-//With strlen() function
+// With strlen() function
 
 #include <stdio.h>
 #include <string.h>
@@ -12,7 +12,7 @@ int main()
     return 0;
 }
 
-//Without strlen() function
+// Without strlen() function
 
 #include <stdio.h>
 
@@ -39,9 +39,9 @@ int main()
 {
     char str[] = "Junaid Alam";
     char str2[20];
-    strcpy(str2,str);
-    printf("String 1: %s \n" , str);
-    printf("String 2: %s \n" , str2);
+    strcpy(str2, str);
+    printf("String 1: %s \n", str);
+    printf("String 2: %s \n", str2);
     return 0;
 }
 
@@ -72,8 +72,8 @@ int main()
     char Name_1[] = "Krish Singhaniya ";
     char Name_2[] = "Junaid Alam";
     char str[40];
-    strcat(str,Name_1);
-    strcat(str,Name_2);
+    strcat(str, Name_1);
+    strcat(str, Name_2);
     puts(str);
     return 0;
 }
@@ -97,4 +97,3 @@ int main()
 
     return 0;
 }
-

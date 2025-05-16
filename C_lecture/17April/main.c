@@ -7,74 +7,74 @@ void Div();
 
 void main()
 {
-  int user;
-  printf("1) add\n");
-  printf("2) sub\n");
-  printf("3) mul\n");
-  printf("4) div\n");
-  scanf("%d", &user);
+    int user;
+    printf("1) add\n");
+    printf("2) sub\n");
+    printf("3) mul\n");
+    printf("4) div\n");
+    scanf("%d", &user);
 
-  switch (user)
-  {
-  case 1:
-    add();
-    break;
-  case 2:
-    sub();
-    break;
-  case 3:
-    mul();
-    break;
-  case 4:
-    Div();
-    break;
+    switch (user)
+    {
+    case 1:
+        add();
+        break;
+    case 2:
+        sub();
+        break;
+    case 3:
+        mul();
+        break;
+    case 4:
+        Div();
+        break;
 
-  default:
-    break;
-  }
+    default:
+        break;
+    }
 }
 
 void add()
 {
-  int a, b, c;
-  printf("\nEnter a no: ");
-  scanf("%d", &a);
-  printf("\nEnter a no: ");
-  scanf("%d", &b);
-  c = a + b;
-  printf("\nAdd is: %d", c);
+    int a, b, c;
+    printf("\nEnter a no: ");
+    scanf("%d", &a);
+    printf("\nEnter a no: ");
+    scanf("%d", &b);
+    c = a + b;
+    printf("\nAdd is: %d", c);
 }
 void mul()
 {
-  int a, b, c;
-  printf("\nEnter a no: ");
-  scanf("%d", &a);
-  printf("\nEnter a no: ");
-  scanf("%d", &b);
-  c = a * b;
-  printf("\nAdd is: %d", c);
+    int a, b, c;
+    printf("\nEnter a no: ");
+    scanf("%d", &a);
+    printf("\nEnter a no: ");
+    scanf("%d", &b);
+    c = a * b;
+    printf("\nAdd is: %d", c);
 }
 
 void sub()
 {
-  int a, b, c;
-  printf("\nEnter a no:  ");
-  scanf("%d", &a);
-  printf("\nEnter a no: ");
-  scanf("%d", &b);
-  c = a - b;
-  printf("\nSub is: %d", c);
+    int a, b, c;
+    printf("\nEnter a no:  ");
+    scanf("%d", &a);
+    printf("\nEnter a no: ");
+    scanf("%d", &b);
+    c = a - b;
+    printf("\nSub is: %d", c);
 }
 
 void Div()
 {
-  int a, b, c;
-  printf("\nEnter a no:  ");
-  scanf("%d", &a);
-  printf("\nEnter a no: ");
-  scanf("%d", &b);
-  c = a / b;
-  printf("\nDiv is: %d", c);
+    int a, b, c;
+    printf("\nEnter a no:  ");
+    scanf("%d", &a);
+    printf("\nEnter a no: ");
+    scanf("%d", &b);
+    c = a / b;
+    printf("\nDiv is: %d", c);
 }
 
 // #include <stdio.h>

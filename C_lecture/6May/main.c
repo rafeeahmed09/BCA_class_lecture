@@ -1,33 +1,33 @@
- #include <stdio.h>
+#include <stdio.h>
 
-    int main()
-    {
+int main()
+{
     for (int i = 0; i <= 100; i++)
     {
-    if (i % 2 != 0)
-    {
-    continue;
-    }
-    printf("%d ", i);
+        if (i % 2 != 0)
+        {
+            continue;
+        }
+        printf("%d ", i);
     }
     return 0;
-    }
-    #include <stdio.h>
+}
+#include <stdio.h>
 
-    int main()
-    {
+int main()
+{
     for (int i = 0; i <= 10; i++)
     {
-    if (i == 5)
-    {
-    break;
-    }
-    printf("%d ", i);
+        if (i == 5)
+        {
+            break;
+        }
+        printf("%d ", i);
     }
     return 0;
-    }
+}
 
-    #include<stdio.h>
+#include <stdio.h>
 
 int main()
 {

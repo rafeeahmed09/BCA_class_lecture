@@ -20,7 +20,7 @@ int main()
     struct student s1;
     s1.rollNumber = 14;
     s1.marks = 98;
-    printf("Roll number %d\nMarks %0.2f",s1.rollNumber,s1.marks);
+    printf("Roll number %d\nMarks %0.2f", s1.rollNumber, s1.marks);
 
     student s1 = {"krish", 1, 97.96};
     printf("Name: %s\n", s1.name);
@@ -39,10 +39,10 @@ int main()
     // ! taking user input for array of structure
     for (int i = 0; i < 2; i++)
     {
-        printf("Enter emp %d Id: ", i+1, emp[i].id);
+        printf("Enter emp %d Id: ", i + 1, emp[i].id);
         scanf("%d", &emp[i].id);
 
-        printf("Enter emp %d Age: ", i+1, emp[i].age);
+        printf("Enter emp %d Age: ", i + 1, emp[i].age);
         scanf("%d", &emp[i].age);
     }
     printf("\n\n");
@@ -56,7 +56,7 @@ int main()
     // ! pointer with structure
     ep = &e1;
     ep->id = 1;
-    scanf("%d",&ep->age);
+    scanf("%d", &ep->age);
     printf(" emp id %d\n", ep->id);
     printf(" emp Age %d\n", ep->age);
 
