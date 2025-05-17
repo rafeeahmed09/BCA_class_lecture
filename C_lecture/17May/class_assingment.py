@@ -50,6 +50,12 @@
 
 # print(arr)
 
+# WAP to print min max in an array
+arr = [12, 34, 56, 78, 89, 90, 23, 45, 74, 14]
+print(min(arr))
+print(max(arr))
+
+
 # WAP to find even factors of a given number
 
 # num = 36
