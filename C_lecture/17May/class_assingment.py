@@ -36,6 +36,8 @@
 #     pass
 #     print(int(asm), " Is not armstrong")
 
+# WAP to make a 3x3 metric and fill it with natural number
+
 # arr = [[None, None, None],
 #        [None, None, None],
 #        [None, None, None]]
@@ -47,3 +49,10 @@
 #         num += 1
 
 # print(arr)
+
+# WAP to find even factors of a given number
+
+# num = 36
+# for i in range(1,num):
+#     if num % i == 0 and i % 2 == 0:
+#         print(i)
