@@ -1,7 +1,7 @@
 # BCA Coding 
 ---
 **Here we will share**
-- Our leadings
+- Our learnings
 - Video resources
 - Practice Questions
 - Projects
