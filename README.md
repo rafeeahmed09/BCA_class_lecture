@@ -1,1 +1,1 @@
-# All Class Notes and Assingment
+# All Class Notes and Assignments
