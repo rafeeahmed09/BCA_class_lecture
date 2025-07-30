@@ -45,19 +45,22 @@ int main()
     // cout << ((4 > 2) || (2 > 3)) << endl; // OR gate one condition needs to be true
     // cout << !(2<3) << endl; // NOT gate compliment the result
 
-    // Increment
+    // Increment //
+
     // pre-increment
     // int a = 5;
     // int b = ++a;
     // cout << "a = " << a << endl;
     // cout << "b = " << b << endl;
+
     // post-increment
     // int a = 5;
     // int b = a++;
     // cout << "a = " << a << endl;
     // cout << "b = " << b << endl;
 
-    // Decrement
+    // Decrement //
+
     // pre-decrement
     // int a = 5;
     // int b = --a;
@@ -69,7 +72,7 @@ int main()
     // cout << "a = " << a << endl;
     // cout << "b = " << b << endl;
 
-    // conditional statement
+    // conditional statement //
     // if-else
     // if (condition){
     //     block of code if condition is true
@@ -93,6 +96,7 @@ int main()
     // }
 
     // Switch case
+
     // switch (expression)
     // {
     // case value1:
@@ -108,11 +112,13 @@ int main()
     // }
 
     // Ternary statement
+
     // condition ? expression if true : expression if false
     // int grater = 4 > 6 ? 4 : 6;
     // cout << grater << endl;
 
-    // Loops
+    // Loops //
+
     // for loop
     // for (initialization; condition; update)
     // {
@@ -151,7 +157,8 @@ int main()
     //     i++;
     // } while (i <= 10);
 
-    // Function
+    // Function //
+
     // return_type function_name(datatype variable_name, datatype variable_name...){
     //     block of code
     //     return statement
@@ -180,26 +187,5 @@ int main()
     // {
     //     cout << value << " ";
     // }
-
-    // Vector(dynamic size array)
-    // vector<data_type> vector_name = {value_1, value_2, value_3, ...};
-
-    // vector<int> arr = {12, 23, 34, 45, 56, 67, 78, 89, 90};
-    // cout << arr[0] << endl;
-    // arr.push_back(10); use to add value at the end of an vector
-    // cout << arr[9] << endl;
-
-    // traversing using normal for loop
-    // for (int i = 0; i < 5; i++)
-    // {
-    //     cout << arr[i] << " ";
-    // }
-
-    // traversing using normal for each loop(suggested)
-    // for (int value : arr)
-    // {
-    //     cout << value << " ";
-    // }
-
     return 0;
 }
