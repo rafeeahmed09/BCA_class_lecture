@@ -5,15 +5,6 @@ using namespace std;
 
 int main()
 {
-
-    // variables //
-    // data_type variable_name = value;
-    // int i = 12;                     // used to sore number
-    // char c = 'k';                   // use to store single character
-    // float f = 99.99f;                // use to store floating point numbers
-    // double d = 999999999.999999999; // used to store long floating point numbers
-    // bool b = true; // use to store boolean value
-
     // IO //
     // cout << variable | string ;
     // cout << "Krish";         //output|print without next line
